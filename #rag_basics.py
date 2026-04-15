@@ -73,7 +73,7 @@ retriever = vectordb.as_retriever(
 )
 
 # ===== SETUP LLM =====
-api_key = "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"  # paste your key!
+api_key = "GROQ_API_KEY"  # paste your key!
 llm = ChatGroq(
     api_key=api_key,
     model="llama-3.1-8b-instant",
